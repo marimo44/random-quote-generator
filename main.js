@@ -2,7 +2,7 @@ $(document).ready(function () {
   let quotes = [];
 
   $.ajax({
-    url: "./quotes.json",
+    url: "/quotes.json",
     method: "GET",
     success: function (data) {
       quotes = data;
